@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1200" viewBox="0 0 1000 1200">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 Z" fill="#25354a"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="500.0" y="34" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">Основной алгоритм приложения</text>
+<rect x="350" y="65" width="300" height="55" rx="27.5" fill="#f2f5f8" stroke="#25354a" stroke-width="2"/>
+<text x="500.0" y="98.5" text-anchor="middle" font-family="Arial" font-size="16">Начало</text>
+<polygon points="320,155 700,155 680,225 300,225" fill="#f2f5f8" stroke="#25354a" stroke-width="2"/>
+<text x="500.0" y="196.0" text-anchor="middle" font-family="Arial" font-size="16">Ввод размера массива n</text>
+<polygon points="500.0,265 700,315.0 500.0,365 300,315.0" fill="#f2f5f8" stroke="#25354a" stroke-width="2"/>
+<text x="500.0" y="321.0" text-anchor="middle" font-family="Arial" font-size="16">n — целое число, n &gt; 0?</text>
+<rect x="30" y="280" width="220" height="70" rx="0" fill="#f2f5f8" stroke="#25354a" stroke-width="2"/>
+<text x="140.0" y="321.0" text-anchor="middle" font-family="Arial" font-size="16">Сообщение об ошибке</text>
+<polyline points="500,120 500,155" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="500,225 500,265" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="300,315 250,315" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<text x="260" y="300" font-family="Arial" font-size="15">Нет</text>
+<polyline points="140,280 140,190 300,190" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<polygon points="320,405 700,405 680,475 300,475" fill="#f2f5f8" stroke="#25354a" stroke-width="2"/>
+<text x="500.0" y="435.5" text-anchor="middle" font-family="Arial" font-size="16">Создание n строк</text>
+<text x="500.0" y="456.5" text-anchor="middle" font-family="Arial" font-size="16">Ввод всех данных Bus</text>
+<polyline points="500,365 500,405" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<text x="512" y="390" font-family="Arial" font-size="15">Да</text>
+<polygon points="500.0,515 700,570.0 500.0,625 300,570.0" fill="#f2f5f8" stroke="#25354a" stroke-width="2"/>
+<text x="500.0" y="565.5" text-anchor="middle" font-family="Arial" font-size="16">Все строки заполнены</text>
+<text x="500.0" y="586.5" text-anchor="middle" font-family="Arial" font-size="16">и значения допустимы?</text>
+<polyline points="500,475 500,515" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<rect x="30" y="535" width="220" height="70" rx="0" fill="#f2f5f8" stroke="#25354a" stroke-width="2"/>
+<text x="140.0" y="576.0" text-anchor="middle" font-family="Arial" font-size="16">Ошибка с номером строки</text>
+<polyline points="300,570 250,570" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<text x="260" y="555" font-family="Arial" font-size="15">Нет</text>
+<polyline points="140,535 140,440 300,440" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<rect x="300" y="665" width="400" height="70" rx="0" fill="#f2f5f8" stroke="#25354a" stroke-width="2"/>
+<text x="500.0" y="695.5" text-anchor="middle" font-family="Arial" font-size="16">Создать BusRegister из Bus[]</text>
+<text x="500.0" y="716.5" text-anchor="middle" font-family="Arial" font-size="16">Показать исходный массив</text>
+<polyline points="500,625 500,665" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<text x="512" y="650" font-family="Arial" font-size="15">Да</text>
+<rect x="300" y="775" width="400" height="70" rx="0" fill="#f2f5f8" stroke="#25354a" stroke-width="2"/>
+<text x="500.0" y="805.5" text-anchor="middle" font-family="Arial" font-size="16">SortDescending()</text>
+<text x="500.0" y="826.5" text-anchor="middle" font-family="Arial" font-size="16">Сортировка вставками</text>
+<polyline points="500,735 500,775" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<polygon points="320,885 700,885 680,955 300,955" fill="#f2f5f8" stroke="#25354a" stroke-width="2"/>
+<text x="500.0" y="926.0" text-anchor="middle" font-family="Arial" font-size="16">Показать отсортированный массив</text>
+<polyline points="500,845 500,885" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<polygon points="320,995 700,995 680,1065 300,1065" fill="#f2f5f8" stroke="#25354a" stroke-width="2"/>
+<text x="500.0" y="1025.5" text-anchor="middle" font-family="Arial" font-size="16">Выбор пути и SaveToFile(path)</text>
+<text x="500.0" y="1046.5" text-anchor="middle" font-family="Arial" font-size="16">Запись CSV UTF-8 с BOM</text>
+<polyline points="500,955 500,995" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<rect x="350" y="1110" width="300" height="55" rx="27.5" fill="#f2f5f8" stroke="#25354a" stroke-width="2"/>
+<text x="500.0" y="1143.5" text-anchor="middle" font-family="Arial" font-size="16">Конец</text>
+<polyline points="500,1065 500,1110" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<text x="750" y="1010" font-family="Arial" font-size="14">Отмена: возврат в окно.</text><text x="750" y="1035" font-family="Arial" font-size="14">Ошибка записи: сообщение,</text><text x="750" y="1056" font-family="Arial" font-size="14">повторный выбор пути.</text></svg>
